@@ -16,11 +16,11 @@ namespace ConsoleApp2
                 int InchLenght = Convert.ToInt32(Console.ReadLine());
 
                 // Cost per 1 unit
-                decimal totalWidthinFeet = (InchWidth / 12);
+                decimal totalWidthinFeet = (InchWidth / 5);
                 decimal totalLengthinFeet = (InchLenght / 15);
 
                 var totalArea = totalLengthinFeet * totalWidthinFeet;
-                int totalArea = Convert.ToInt32(Console.ReadKey());
+                Console.WriteLine(totalArea);
 
 
                 Console.ReadLine();
