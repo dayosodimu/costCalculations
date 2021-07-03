@@ -9,18 +9,18 @@ namespace ConsoleApp2
             {
                 // User to enter floor width
                 Console.WriteLine("Enter floor width");
-                int InchWidth = Convert.ToInt32(Console.ReadLine());
+                int inchWidth = Convert.ToInt32(Console.ReadLine());
 
                 // User to enter floor lenght
                 Console.WriteLine("Enter floor lenght");
-                int InchLenght = Convert.ToInt32(Console.ReadLine());
+                int inchLenght = Convert.ToInt32(Console.ReadLine());
 
                 // Cost per 1 unit
-                decimal totalWidthinFeet = (InchWidth / 5);
-                decimal totalLengthinFeet = (InchLenght / 15);
+                decimal totalWidthinFeet = (inchWidth / 5);
+                decimal totalLengthinFeet = (inchLenght / 15);
 
                 var totalArea = totalLengthinFeet * totalWidthinFeet;
-                Console.WriteLine("The total area cost is" + totalArea);
+                Console.WriteLine("The total area cost is " + totalArea);
 
 
                 Console.ReadLine();
