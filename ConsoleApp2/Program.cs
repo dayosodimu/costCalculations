@@ -19,8 +19,14 @@ namespace ConsoleApp2
                 decimal totalWidthinFeet = (inchWidth / 12);
                 decimal totalLengthinFeet = (inchLenght / 12);
 
-                var totalArea = totalLengthinFeet * totalWidthinFeet;
-                Console.WriteLine("The total area cost is " + totalArea);
+                var totalAreaSquareFeet = totalLengthinFeet * totalWidthinFeet;
+                Console.WriteLine("The total area is " + totalAreaSquareFeet);
+
+                //TODO: Calcuclate total cost
+
+                //TODO: Output total cost
+
+
 
 
                 Console.ReadLine();
