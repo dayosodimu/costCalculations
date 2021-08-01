@@ -9,29 +9,37 @@ namespace ConsoleApp2
             {
                 // User to enter floor width
                 Console.WriteLine("Enter floor width in inches");
-                int inchWidth = Convert.ToInt32(Console.ReadLine());
+                double inchWidth = Convert.ToDouble(Console.ReadLine());
 
                 // User to enter floor lenght
                 Console.WriteLine("Enter floor lenght in inches");
-                int inchLenght = Convert.ToInt32(Console.ReadLine());
+                double inchLenght = Convert.ToDouble(Console.ReadLine());
 
                 // Converting inches to feet
-                decimal totalWidthinFeet = (inchWidth / 12);
-                decimal totalLengthinFeet = (inchLenght / 12);
+                double totalWidthinFeet = (inchWidth / 12);
+                double totalLengthinFeet = (inchLenght / 12);
 
-                var totalAreaSquareFeet = totalLengthinFeet * totalWidthinFeet;
-                Console.WriteLine("The total area is " + totalAreaSquareFeet);
+                double totalAreaSquareFeet = totalLengthinFeet * totalWidthinFeet;
+
+                // Cost Per unit
+                double costPerUnit = 6.99;
+                
+                double totalAmount = totalAreaSquareFeet * costPerUnit;
+                Console.WriteLine("Cost per unt: " + totalAmount);
+
+                // Cost per Area of flooring
 
                 //TODO: Calcuclate total cost
+
 
                 //TODO: Output total cost
 
 
+                Console.WriteLine();
 
-
-                Console.ReadLine();
                 Console.ReadKey();
-            }
+             
+             }
         }
     }
 }
