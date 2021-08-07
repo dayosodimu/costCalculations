@@ -28,6 +28,9 @@ namespace ConsoleApp2
                 Console.WriteLine("Cost per unt: " + totalAmount);
 
                 // Cost per Area of flooring
+                Console.WriteLine("This program calcuates the area of flooring");
+                Console.WriteLine("The cost per area of flooring is" + totalAmount * totalAreaSquareFeet);
+
 
                 //TODO: Calcuclate total cost
 
