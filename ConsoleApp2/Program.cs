@@ -32,7 +32,7 @@ namespace ConsoleApp2
                 Console.WriteLine("The cost per area of flooring is" + totalAmount * totalAreaSquareFeet);
 
 
-                //TODO: Calcuclate total cost
+                //TODO: Calculate cost of labour per hour
 
 
                 //TODO: Output total cost
